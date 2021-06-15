@@ -14,7 +14,10 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@member-club/ui-shared": ["libs/ui-shared/src/index.ts"],
+      "@member-club/util": ["libs/util/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

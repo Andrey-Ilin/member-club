@@ -1,0 +1,26 @@
+.signup {
+  font-size: 1rem;
+}
+
+.newMember {
+  font-size: 1rem;
+  color: #ccc
+}
+
+.form {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  div {
+    margin-top: 0.5rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  justify-content: flex-end;
+
+  button:first-of-type {
+    margin-right: 0.5rem;
+  }
+}
